@@ -9,7 +9,7 @@ This project demonstrates a sophisticated, memory-enhanced chatbot built with Py
 This application is built on a modern stack for **Retrieval-Augmented Generation (RAG)**:
 
 - **🧠 Orchestration: [`mem0`](https://github.com/mem0ai/mem0)**  
-  Simplifies the creation of memory-aware AI systems by managing memory types and backend services.
+It's a light weight library which internally by using Graph-database and vector-DB acts as a memory. Simplifies the creation of memory-aware AI systems by managing memory types and backend services.
 
 - **🧠 LLM & Embeddings: [OpenAI](https://openai.com)**  
   Uses:
@@ -43,3 +43,4 @@ The system follows a continuous loop for each user message:
    - Embeddings are created and stored in Qdrant and Neo4j for future reference.
 
 ---
+
